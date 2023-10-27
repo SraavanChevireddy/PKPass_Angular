@@ -28,3 +28,9 @@ export PATH="$(npm prefix -g)/bin:$PATH"
 source ~/.bashrc  
 
 
+### ADD THIS
+export PATH="$(npm prefix -g)/bin:$PATH"
+
+
+
+
