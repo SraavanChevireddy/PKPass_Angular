@@ -22,3 +22,9 @@ npm install -g @angular/cli
 npm install
 
 
+
+npm prefix -g
+export PATH="$(npm prefix -g)/bin:$PATH"
+source ~/.bashrc  
+
+
