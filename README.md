@@ -1,5 +1,1 @@
-this.http.get(fileUrl, { responseType: 'arraybuffer' })
-      .subscribe((data: ArrayBuffer) => {
-        const blob = new Blob([data], { type: 'application/vnd.apple.pkpass' });
-        this.fileSaverService.saveAs(blob, filename);
-      });
+<a href="your-server-url/your-pass.pkpass" target="_blank" rel="noopener noreferrer">Add to Wallet</a>
